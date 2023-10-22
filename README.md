@@ -1,5 +1,5 @@
 # dokuwiki-vector-darkmode
-A dark theme for the popular dokuwiki template vector
+A dark theme for the popular [dokuwiki](https://www.dokuwiki.org/dokuwiki) template [vector](https://www.dokuwiki.org/template:vector). 
 
 ![Screenshot 2023-10-22 at 23-45-58 start - testwiki](https://github.com/lucky-slevin/dokuwiki-vector-darkmode/assets/7048844/651ad799-70cd-45be-a3a6-66a2d1d68da2)
 
