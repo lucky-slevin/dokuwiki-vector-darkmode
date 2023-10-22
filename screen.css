@@ -1,0 +1,277 @@
+/*
+   Place for user defined CSS rules (screen media) - this file can safely be
+   preserved when updating. See README for details.
+
+   Note: All example files are delivered with the ".dist" extensions to make
+         sure your changes do not get overwritten when updating the template.
+         Just remove the ".dist" extension to use them.
+*/
+
+/*
+    - background-color - body:      #1e1e1e (dark-grey)
+    - background-color - content:   #333337 (dark-bluish-grey)
+    - color - text:                 #d0d0d0 (almost-white)
+
+
+
+*/
+
+
+
+html {
+    background-color: #1e1e1e;
+    color: __text__;
+    color: #d0d0d0;
+}
+
+body {
+  background-color: #1e1e1e;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWOQk5P7DwACEgFaAyl66wAAAABJRU5ErkJggg==); /*1x1-Base64-Pixel mit knallgrüner Farbe*/
+}
+
+
+/*config manager*/
+#config__manager tr.default .input, #config__manager tr.default input, #config__manager tr.default textarea, #config__manager tr.default select, #config__manager .selectiondefault {
+    background-color: #2b2a2a;
+    color: #d0d0d0;
+}
+
+#config__manager fieldset {
+  background-color: #2b2a2a;
+}
+
+.dokuwiki fieldset {
+  border: 1px solid #4c4c52;
+}
+
+#config__manager td.label span.outkey {
+  background-color: #28282b;
+}
+
+caption, legend {
+  color: #d0d0d0;
+}
+
+
+/*tables*/
+.dokuwiki table.inline th {
+  background-color: #232526; /*table head*/
+}
+
+
+.dokuwiki table.inline th, .dokuwiki table.inline td {
+  border: 1px solid #585860; /*table border*/
+}
+
+
+.dokuwiki table.inline {
+  background-color: #28282b; /*general rows and columns*/
+  color: #4abd16; /*text color inside the table*/
+}
+
+
+/*links*/
+a {
+	color: #4b96ff;
+}
+
+a:visited {
+	color: #2c70cf;
+}
+
+
+div.dokuwiki a.urlextern:visited {
+  color: #2c70cf;
+}
+
+
+/*lists*/
+div.dokuwiki .li {
+  color: #d0d0d0;
+}
+
+div.dokuwiki ol {
+    color:  #d0d0d0;
+}
+
+
+/*syntax: code*/
+div#content .dokuwiki code, div#content .dokuwiki pre, div#content .dokuwiki pre.code, div#content .dokuwiki pre.file, div#content .dokuwiki samp, div#content .dokuwiki kbd, div#content .dokuwiki tt {
+    background-color: #525259;
+    color: #d0d0d0;
+}
+
+div#content .dokuwiki pre, div#content .dokuwiki pre.code, div#content .dokuwiki pre.file {
+    border: 1px dashed #797979;/*syntax: code - border*/
+}
+
+
+div#content .dokuwiki dl.file dt, div#content .dokuwiki dl.code dt {
+    background-color: #525259;
+    border-bottom: 3px solid #525259;
+    border-top: 1px dashed #797979;
+    border-left: 1px dashed #797979;
+    border-right: 1px dashed #797979;
+}
+
+
+div#content .dokuwiki dl.file dt a, div#content .dokuwiki dl.code dt a {
+    color: #8a8a8a;
+}
+
+
+/*left sidebar navigation*/
+div#panel {
+  line-height: 15px;
+  background-color: #1e1e1e;
+}
+
+
+#head-base {
+	/*horizontally repeated 1x1 pixel in light-bluish-grey (#4c4c52) on the left side of the content-container*/
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWPw8Qn6DwADvAHqGFfQtwAAAABJRU5ErkJggg==);
+}
+
+
+div#panel div.portal h5 {
+	color: #b3b3b3;
+}
+
+
+.dokuwiki a.wikilink1, .dokuwiki a.wikilink1:visited {
+    color: #1adaff !important;
+}
+
+
+a.wikilink2, a.wikilink2:link, a.wikilink2:visited, a.wikilink2:hover {
+	color: #ff0060 !important;
+}
+
+
+div#panel div.portal div.body ul li a {
+    color: #00ff9f;
+}
+
+
+div#panel div.portal div.body ul li a:visited {
+    color: #bf0;
+}
+
+
+/*content div (where all the article text goes)*/
+div#content{
+	background-color: #333337;
+	color: #aaaab4;
+	/*vertically repeated 1x1 pixel in dark-blusih-grey (#4c4c52) on the left side of the content-container*/
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWPw8Qn6DwADvAHqGFfQtwAAAABJRU5ErkJggg==);
+}
+
+
+div#content .dokuwiki h1, div#content .dokuwiki h2, div#content .dokuwiki h3, div#content .dokuwiki h4, div#content .dokuwiki h5, div#content .dokuwiki h6 {
+	color: #e0e0ee;
+}
+
+
+div.dokuwiki a:link, div.dokuwiki a:visited {
+    color: #28c5ff;
+    text-decoration: none;
+}
+
+
+div#footer{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWPw8Qn6DwADvAHqGFfQtwAAAABJRU5ErkJggg==); /*1x1-Base64-Pixel in #4c4c52 Farbe*/
+	/*color: #c4c4c4;*/
+}
+
+
+div#simpleSearch {
+    border: solid 1px #AAA;
+    background-color: #333337;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAQCAYAAADXnxW3AAAAEElEQVQImWMwNjb/z0A9AgDzPRnBLWCwnQAAAABJRU5ErkJggg==);
+}
+
+
+.dokuwiki .secedit {
+    margin-top: 0;
+    color: #fc03f0;
+    background-color: #fc03f0;
+}
+
+
+.dokuwiki .secedit input.button {
+	background-color: #fc03f0;
+}
+
+
+div#page-base {
+	background-color: #2c2c2c;
+	/*background-color: #1e1e1e;*/
+	/* vertical 1 x 44 px gradient in #1e1e1e (bottom) and #2c2c2c (top) at the top of the content container*/
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAsCAYAAACkJ9JhAAAARElEQVQImWXEsREAIQgEQCtBBEUF+m/PTz64GTbYlpmvRUTJ3bF7L3bOwfbemJmV1lp/c86SqmIigo0xMGbGeu8lInofVdI+6VywXhgAAAAASUVORK5CYII=);
+}
+
+
+div.vectorTabs {
+	/* 1x 46 px gradient on the left border of the navigation tabs on top of the content. #4c4c52 on the bottom and #2c2c2c on the top*/
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAYAAADp73NqAAAAmElEQVQImS3EURZEIAAF0LcgE0KIQohiZpzZ/17e/HQ/LrIsI14vQQghCCFyIs8LoijKVFlKQsqKkLImqqoh6loRTaMIpVpCqY5o257oOp3q+4HQeiS0NsQwGGIcp5QxM2HtQljriGlaiXneUsuyE855wrmDWNeT2LZA7HsgvI+E9xdxHDdxnu9UCB8ixi8R40Nc10Pc949/yK1OtdJLxYUAAAAASUVORK5CYII=);
+}
+
+
+div.vectorTabs li.selected {
+	/* horizontally repeated 1 x 46 px gradient inside selected navigation tabs on top of the content-container. #333337 on the bottom and #2c2c2c on the top*/
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAYAAADp73NqAAAAQUlEQVQImXXEuRGAMAwEQBWk/8D0X5kITOCxxQZLzFz0JUUiW3qkan95kdlWHLlnE9YiUBRx9WXeTWMNGEXAM3sBtANHym2cE/oAAAAASUVORK5CYII=);
+}
+
+
+div.vectorTabs ul li {
+	/* horizontally repeated 1 x 46 px gradient inside UNselected navigation tabs on top of the content-container. #fff on the bottom and #2c2c2c on the top*/
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAYAAADp73NqAAAAcklEQVQImbXEUQpFQABA0SskYhKREE1EYv/bu28V73wcvu+Tv/S+rzzPI/d9y3Vdcp6nHMchMUbZ9122bZN1XWVZFpnnWaZpknEcZRgG6fteuq6Ttm0lhCBN00hd11JVlZRlKUVRSJ7nkmWZpGkqSZL4A6UnPjL2goJAAAAAAElFTkSuQmCC); /*fucking bunter gradient*/
+}
+
+
+div.vectorTabs li a {
+	/* 1x 46 px gradient on all other borders of the navigation tabs on top of the content. #4c4c52 on the bottom and #2c2c2c on the top*/
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAYAAADp73NqAAAAmElEQVQImS3EURZEIAAF0LcgE0KIQohiZpzZ/17e/HQ/LrIsI14vQQghCCFyIs8LoijKVFlKQsqKkLImqqoh6loRTaMIpVpCqY5o257oOp3q+4HQeiS0NsQwGGIcp5QxM2HtQljriGlaiXneUsuyE855wrmDWNeT2LZA7HsgvI+E9xdxHDdxnu9UCB8ixi8R40Nc10Pc949/yK1OtdJLxYUAAAAASUVORK5CYII=);
+}
+
+
+div.vectorTabs li a, div.vectorTabs li a span {
+    color: #81b2c4;
+}
+
+
+div.vectorTabs li.selected a, div.vectorTabs li.selected a span, div.vectorTabs li.selected a:visited div.vectorTabs li.selected a:visited span {
+    color: #aaaab4;
+}
+
+
+div.dokuwiki #dw__toc {
+    background-color: #333337;
+}
+
+
+div.dokuwiki #dw__toc h3 {
+    border: 1px solid #aaa !important;
+    background-color: #2e2e2e !important;
+}
+
+
+div.dokuwiki #dw__toc h3 ~ div {
+    border: 1px solid #aaa;
+    padding-left: 10px;
+}
+
+
+
+table {
+  border: 1px solid #363636;
+  color: #9baab4;
+}
+
+
+
+
+.catlinks {
+	border: 1px solid #4c4c52; /*border around the footer column under any article*/
+    background-color: #1e1e1e;
+}
