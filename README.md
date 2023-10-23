@@ -9,4 +9,4 @@ Just copy and paste the `screen.css` into *`../dokuwiki/lib/tpl/vector/user`*. Y
 
 ## Please note
 
-This is a first version (a v0.1 if you will). Not all design elements are already implemented here. If you have any questions or suggestions, feel free to open an [issue](https://github.com/lucky-slevin/dokuwiki-vector-darkmode/issues) here on github
+This is a first version (a v0.1 if you will). Not all design elements are already implemented here. **It's a work in progress**. If you have any questions or suggestions, feel free to open an [issue](https://github.com/lucky-slevin/dokuwiki-vector-darkmode/issues) here on github
